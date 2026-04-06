@@ -128,8 +128,9 @@ body {
   padding: 0 5px 0 5px;
 }
 #mobile_menu ul li a {
-  text-decoration: none;
+  
   color: #fff;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -145,9 +146,9 @@ body {
   html {
     font-size: 95%;
   }
-  #menu_row #about row {
+  #menu_row ,#about_row {
     flex-wrap: wrap;
-    padding: 0 10px 0 10px;
+    padding: 0 10px;
   }
 }
 @media screen and (max-width: 360px) {
