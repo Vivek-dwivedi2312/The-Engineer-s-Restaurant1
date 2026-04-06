@@ -128,15 +128,14 @@ body {
   padding: 0 5px 0 5px;
 }
 #mobile_menu ul li a {
-  
   color: #fff;
   text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
- 
-
-}
+  .contact_col form {
+    width: 100%;
+  }
   #header {
     position: absolute;
   }
@@ -149,36 +148,38 @@ body {
   html {
     font-size: 95%;
   }
-  #menu_row ,#about_row {
+  #menu_row,
+  #about_row {
     flex-wrap: wrap;
     padding: 0 10px;
   }
-}
- #navbar{
-  flex-direction:column;
-  align-items:center;
+
+  #navbar {
+    flex-direction: column;
+    align-items: center;
   }
   #about_row,
-#contact_row{
-  flex-direction:column;
-  padding:20px;
-}
+  #contact_row {
+    flex-direction: column;
+    padding: 20px;
+  }
 
-#hero_content h1{
-  font-size:2rem;
-}
+  #hero_content h1 {
+    font-size: 2rem;
+  }
 
-#hero_content h2{
-  font-size:1.4rem;
-}
+  #hero_content h2 {
+    font-size: 1.4rem;
+  }
 
-.slider,
-.slides img{
-  height:70vh;
-}
+  .slider,
+  .slides img {
+    height: 60vh;
+  }
 
-.text{
-  font-size:1.8rem;
+  .text {
+    font-size: 1.8rem;
+  }
 }
 @media screen and (max-width: 360px) {
   html {
@@ -348,7 +349,7 @@ h3 {
   display: flex;
   flex-direction: column;
   background-color: magenta;
-  width: 70%;
+  width: 90%;
   padding: 20px 40px 20px 20px;
 }
 .contact_col form h3 {
